@@ -1,0 +1,71 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen  and (max-width : 480px) {
+    body {
+      background-color: #E9E8E7;
+   }
+   .logo {
+      width: 300px;
+      margin: auto;
+      margin-top: 100px;
+   }
+   .containers {
+      margin-top: 100px;
+   }
+
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 768px) {
+   body {
+      background-color: #E9E8E7;
+   }
+   .logo {
+      width: 400px;
+      margin: auto;
+      margin-top: 100px;
+   }
+   .containers {
+      margin-top: 150px;
+   }
+
+}  
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-width : 768px) and (max-width: 1224px){
+   body {
+         background-color: #E9E8E7;
+      }
+   .logo {
+      width: 500px;
+      margin: auto;
+      margin-top: 100px;
+   }
+   .containers {
+      margin-top: 100px;
+   }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+     body {
+    background: url(files/background.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #E9E8E7;
+}
+
+}
+
